@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(51, 31, 0);
+}
+h1, h2 {
+    background-color: #BF9D58;
+    color: #206659;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    Veja, em vez de fazer como feito anteriormente, pode fazer como foi feito abaixo. Entretanto, É IMPORTANTE se atentar à ordem. Trata-se de ma shorthand*/
+    font: normal bold 1em Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2.8em;
+}
+p {
+    font-family: sans-serif;
+    background-color: white;
+    font-size: 1.2em;
+}

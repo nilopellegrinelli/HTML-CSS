@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Vídeos</h1>
+    <p>Vamos assistir ao vídeo?</p>
+    <video src="midia/video.mp4" width="200" controls></video>
+    <!--Assim como fizemos em áudio, vamos tentar de outra forma aqui abaixo.-->
+    <video controls autoplay loop>
+        <source src="midia/video.m4v" type="video/m4v">
+        <p>Seu vídeo não pôde ser exibido!</p>
+        <!--O mp4 foi suprimido propositalmente, na tentativa que fosse exibido o qe consta em 'p' Entretanto, persiste o mesmo erro!-->
+    </video>
+    <h1>Vídeo externos</h1>
+    <p>Hospedar os vídeos onde está armazenado o site pode representar um altíssimo custo. Portanto, a melhor ideia é utilizar um hospedeiro externo.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0qjMQ2Z1zCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

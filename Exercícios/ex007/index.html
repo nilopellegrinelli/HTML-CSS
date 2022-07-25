@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+        <img src="Imagens/G.png" alt="Imagem grande.">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios via HTML 5.</p>
+    <audio src="midia/faixa01.mp3" controls autoplay></audio>
+    <!--A forma acima, foi a primeira maneira. Entretanto, o autoplay não funcionou (provavelmente por problemas de compatibilidade. Logo abaixo, vamos tentar outra forma.)-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/faixa01.wav" type="audio/wav">
+        <source src="midia/faixa01.ogg" type="audio/ogg">
+        <p>Infelizmente, seu navegador não consegue reproduzir áudios. <a href="midia/faixa01.mp3">Clique aqui para baixar o arquivo.</a></p>
+        <!--O MP3 foi omitido anteriormente de forma proposital, com o objetivo de transmitir a mensagem entre 'p'. Entretanto, não ocorreu conforme o esperado. Dúvida segue em aberto.-->
+    </audio>
+</body>
+</html>

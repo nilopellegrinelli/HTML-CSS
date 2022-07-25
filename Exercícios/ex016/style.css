@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+body { 
+
+}
+h1 {font: normal 700 3em 'Cormorant SC';
+
+}
+h2 {font: normal 500 2em 'Cormorant SC';
+
+}
+p {font: normal bold 1em 'Mukta';
+
+}
