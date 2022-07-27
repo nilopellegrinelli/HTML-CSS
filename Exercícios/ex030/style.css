@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+:root {
+    --corum: #2DB8EB;
+    --cordois: #1E73D4;
+    --cortres: #224EF6;
+    --corquatro: #1ED3D4;
+    --corcinco: #22F6BB;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: var(--corum);
+}
+
+header {
+
+}
+
+header h1 {
+
+}
+
+header p {
+
+}
+
+nav {
+
+}
+
+nav a {
+
+}
+
+main {
+
+}
+
+main h2 {
+
+}
+
+main p {
+
+}
+
+main img {
+
+}
+
+aside {
+
+}
+
+aside a {
+
+}
+
+footer {
+    
+}
