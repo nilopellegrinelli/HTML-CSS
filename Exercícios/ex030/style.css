@@ -31,21 +31,34 @@ header {
 
 header h1 {
     font-family: 'Press Start 2P', cursive;
+    padding: 4.5vw 6vw 1vw 6vw;
+    text-align: center;
+    font-size: 4.5vw;
 
 }
 
 header p {
     font-family: 'Arvo', serif;
+    text-align: center;
+    padding: 0vw 0vw 2vw 0vw;
+    font-size: 2.8vw;
 
 }
 
 nav {
     background: var(--cordois);
+    text-align: center;
+    border: 2px;
+    border-color: white;
 
 }
 
 nav a {
     text-decoration: none;
+    color: #2DB8EB;
+    font-weight: bold;
+    padding: 0.6vw;
+    
 
 }
 
