@@ -48,14 +48,22 @@ header p {
 nav {
     background: var(--cordois);
     text-align: center;
+    color: #2DB8EB;
+    font-weight: bold;
+    padding-bottom: 1.6vw;
+    
+    
 
 }
 
 nav a {
     text-decoration: none;
-    color: #2DB8EB;
-    font-weight: bold;
+    font-size: 2.4vw;
     padding: 0.6vw;
+    border-width: 0.5vw;
+    border-style: dashed;
+    border-color: white;
+    color: #2DB8EB;
     
 
 }
@@ -69,16 +77,22 @@ main h2 {
     font-family: 'Arvo', serif;
     font-weight: 400;
     color: white;
+    padding: 0.4vw 1vw 0vw 1vw;
 
 
 }
 
 main p {
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding: 1vw;
+    line-height: 30px;
 
 }
 
 main img {
+    min-width: 320px;
+    max-width: 800px;
 
 }
 
