@@ -48,8 +48,6 @@ header p {
 nav {
     background: var(--cordois);
     text-align: center;
-    border: 2px;
-    border-color: white;
 
 }
 
